@@ -6,4 +6,4 @@ var tip = 1240;
 //calculation
 var totalDue  = foodCost + tax + tip;
 
-console.log("thetotal die is"+ totalDue)
+console.log("the total die is " + totalDue)
