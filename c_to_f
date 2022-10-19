@@ -1,0 +1,4 @@
+var celsius = 30;
+var Fahrenheit= (celsius * 1.8) +(32);
+var ans = ("When the celsius is " + celsius + "the fehrenheit   would be " + Fahrenheit)
+console.log(ans)
