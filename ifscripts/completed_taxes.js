@@ -4,7 +4,7 @@ var payRate = 10;
 var hoursWorked= 45;
 var grossPay = payRate * hoursWorked
 var annualIncome= grossPay * 52
-var taxWhitholded=0;
+var taxWhitholded;
 console.log(annualIncome)
 
 
@@ -19,7 +19,7 @@ if (filingStatus === "single" && annualIncome <= 12000){
     console.log(annualTax)
 
 }else if (filingStatus === "single" && annualIncome >= 74999.99){
-    var annualTax =(annualIncome* .11) - taxWhitholded
+    var annualTax =(annualIncome* .2) - taxWhitholded
     console.log(annualTax)
 }
 
@@ -38,4 +38,5 @@ if (filingStatus === "joint" && annualIncome <= 12000){
 }else if (filingStatus === "joint" && annualIncome >= 74999.99){
     var annualTax =(annualIncome* .2) - taxWhitholded
     console.log(annualTax)
+
 }
