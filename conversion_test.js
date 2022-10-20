@@ -32,4 +32,4 @@ d =-d
 
 
 
-console.log(b)
+console.log(c)

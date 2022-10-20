@@ -15,7 +15,7 @@ var majorCodes =majorCode.toUpperCase();
         break;
     case "CSCI":
         studentMajor="Computer Science "
-        advisingLocation="Sheppard Hall, Room 314"
+        advisingLocation="Sheppard Hall, Rogit om 314"
         console.log("For student "+ studentName +". Your major is " + studentMajor + " and your advising location would be "+ advisingLocation)
         break;
     case "ENG":

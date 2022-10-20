@@ -23,8 +23,6 @@ if (filingStatus === "single" && annualIncome <= 12000){
     console.log(annualTax)
 }
 
-
-
 if (filingStatus === "joint" && annualIncome <= 12000){
     var annualTax =(annualIncome* .0) - taxWhitholded
     console.log(annualTax)
